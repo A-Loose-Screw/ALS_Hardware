@@ -1,0 +1,31 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid f948908f-a766-40c4-8fbf-8f39d474d206)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 110.49 83.82) (size 27.94 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 586849b9-fb15-4568-b1e3-9a7c9a1e291d)
+    (property "Sheetname" "CAN" (at 110.49 83.1084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "CAN.kicad_sch" (at 110.49 104.7246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "CAN_Bus"
+        (path "/f948908f-a766-40c4-8fbf-8f39d474d206" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
